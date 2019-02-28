@@ -1,0 +1,63 @@
+export interface ICard {
+    spId?: string;
+    callToAction?: string;
+    cardTags?: Array<any>;
+    campaignId: string;
+    cardTitle: string;
+    cardDescription: string;
+    endAgeLimit?: number;
+    mediaType?: string;
+    primaryMediaUrl: string;
+    additionalMediaUrls?: Array<any>;
+    cardQuestion?: Array<any>;
+    cardStartDate: string;
+    gender?: string;
+    groups?: Array<any>;
+    interests?: Array<any>;
+    listOfWorkflowStatuses?: Array<any>;
+    listOfReviews?: Array<any>;
+    listOfSupportTags?: Array<any>;
+    comulativeRating?: number;
+    maxQuantityPerUser?: number;
+    totalReviews?: number;
+    cardEndDate: string;
+    availableQuantity: number;
+    likes: number;
+    shares: number;
+    views: number;
+    subscribers: number;
+    unSubscribers: number;
+    open: number;
+    discard: number;
+    isPhysicalProduct?: boolean;
+    totalRevenue: number;
+    isLocalPriceViewEnabled?: boolean;
+    segments?: Array<any>;
+    startAgeLimit?: number;
+    returnPolicy?: string;
+    termsOfServices?: string;
+    listOfAttributes?: Array<any>;
+    listOfPlans: Array<{
+        price: {
+            amount: string | number;
+            currency: string;
+            currencySymbol: string;
+        };
+    } & any>;
+    locations: Array<{
+        latitude: string;
+        longitude: string;
+        area: string;
+        city: string;
+        country: string;
+        placeId: string;
+        description: string;
+    }>;
+    currentWorkflow: string;
+    campaignEndDate: string;
+    id?: string | number;
+    userId: string;
+    createdAt: string;
+    updatedAt: string;
+}
+export declare const CardsJSON: Array<ICard>;
