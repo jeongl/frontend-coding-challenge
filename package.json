@@ -1,8 +1,6 @@
 {
-  "name": "front-end-coding-challenge",
+  "name": "frontend-coding-challenge",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
   "scripts": {
     "clean-start": "rm -rf node_modules && npm i && npm start",
     "build": "webpack --mode=production",
@@ -10,17 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeongl/front-end-coding-challenge.git"
+    "url": "git+https://github.com/jeongl/frontend-coding-challenge.git"
   },
-  "keywords": [
-    "react-router"
-  ],
   "author": "Jeong Lim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeongl/front-end-coding-challenge/issues"
+    "url": "https://github.com/jeongl/frontend-coding-challenge/issues"
   },
-  "homepage": "https://github.com/jeongl/front-end-coding-challenge#readme",
+  "homepage": "https://github.com/jeongl/frontend-coding-challenge#readme",
   "devDependencies": {
     "@types/classnames": "^2.2.7",
     "@types/node": "^10.12.27",
